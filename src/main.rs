@@ -94,7 +94,7 @@ impl App {
             .centered();
 
         let text2 = format!(
-            "\n\n\n\nMaster's(M.Tech.):     IIT Guwahati\n\n\n\nBachelors's(B.Tech.):   ZHCET, AMU"
+            "\n\n\n\nMaster's(M.Tech.):     IIT Guwahati'26\n\n\n\nBachelors's(B.Tech.):   ZHCET, AMU'23"
         );
 
         let para2 = Paragraph::new(text2)

@@ -197,16 +197,16 @@ function debugString(val) {
     // TODO we could test for more things here, like `Set`s and `Map`s.
     return className;
 }
-function __wbg_adapter_18(arg0, arg1) {
-    wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h9776ee2785c86459(arg0, arg1);
+function __wbg_adapter_18(arg0, arg1, arg2) {
+    wasm.closure21_externref_shim(arg0, arg1, arg2);
 }
 
-function __wbg_adapter_21(arg0, arg1, arg2) {
-    wasm.closure6_externref_shim(arg0, arg1, arg2);
+function __wbg_adapter_21(arg0, arg1) {
+    wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hdb4cf91130416a70(arg0, arg1);
 }
 
 function __wbg_adapter_24(arg0, arg1, arg2) {
-    wasm.closure23_externref_shim(arg0, arg1, arg2);
+    wasm.closure27_externref_shim(arg0, arg1, arg2);
 }
 
 async function __wbg_load(module, imports) {
@@ -361,16 +361,16 @@ function __wbg_get_imports() {
         const ret = false;
         return ret;
     };
-    imports.wbg.__wbindgen_closure_wrapper37 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 3, __wbg_adapter_18);
+    imports.wbg.__wbindgen_closure_wrapper264 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 28, __wbg_adapter_24);
         return ret;
     };
-    imports.wbg.__wbindgen_closure_wrapper39 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 3, __wbg_adapter_21);
+    imports.wbg.__wbindgen_closure_wrapper57 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 22, __wbg_adapter_18);
         return ret;
     };
-    imports.wbg.__wbindgen_closure_wrapper75 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 24, __wbg_adapter_24);
+    imports.wbg.__wbindgen_closure_wrapper59 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 20, __wbg_adapter_21);
         return ret;
     };
     imports.wbg.__wbindgen_debug_string = function(arg0, arg1) {
