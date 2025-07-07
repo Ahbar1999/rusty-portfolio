@@ -104,7 +104,7 @@ impl App {
             .centered();
 
         let text2 = format!(
-            "\n\n\nGithub: {}\n\n\nLeetcode: {}\n\n\nCodeforces: {}\n\n\nLinkedIn {}\n\n\n",
+            "\n\n\nGithub: {}\n\n\nLeetcode: {}\n\n\nCodeforces: {}\n\n\nLinkedIn: {}\n\n\n",
             &GITHUB,
             &LEETCODE,
             &CODEFORCES,
